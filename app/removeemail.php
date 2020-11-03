@@ -1,3 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset=utf-8">
+    <title>Make Me Elvis - Remove Email</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<body>
+
 <img src="blankface.jpg" width="161" height="350" alt="" style="float:right"/>
 <img name="elvislogo" src="elvislogo.gif" width="229" height="32" border="0" alt="Make Me Elvis"/>
 <p>Выберете, пожалуйста, адреса электронной почты, которые вы хотите удалить из листа рассылки
@@ -41,3 +50,5 @@
     ?>
     <input type="submit" name="Удалить" value="Удалить"/>
 </form>
+</body>
+</html>
