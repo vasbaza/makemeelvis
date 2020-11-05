@@ -25,6 +25,7 @@
 
     if (isset($_POST['Удалить'])) {
         foreach ($_POST['todelete'] as $delete_id) {
+            $delete_id = mysqli_real_escape_string($dbc, trim($delete_id));
             $query = "delete from email_list where id = $delete_id";
             mysqli_query($dbc, $query)
             or die('Ошибка запроса к базе данных');
